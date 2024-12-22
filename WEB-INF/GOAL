@@ -1,0 +1,8 @@
+-faire un programme où :
+    NB:Ecolage et tout ce qui est affilié avec sont des tables sur mysql, alors que notes et autre sont en oracle
+    -les élèves payent leur écolages
+    -le mode de payement diffère selon le choix de l'étudiant : mensuel, trimestriel, semestriel, annuel
+        -la date de payement n'est pas à préciser, juste si le mois est payer ou pas
+    -les notes d'une année sont divisées en deux semestres
+    -un élève n'a ni le droit d'insérer ni de regarder ses notes du semestre tant qu'il n'a pas payé l'entièreté du semestre en question
+    -le nombre de mois d'une année scolaire est modulable (peut être pair ou impair)

@@ -1,0 +1,44 @@
+Base de donnée
+    ☐ Créer une méthode pour vérifier si un élément spécifique est présent dans une table spécifique
+    ✔ créer les méthode pour récupérer des colonnes spécifiques dans une table spécifique @done(24-12-04 18:48)
+    
+Traitement
+    ✔ créer une méthode pour récupérer les écolages d'un étudiant @done(24-12-05 07:08)
+    ✔ créer une méthode pour récupérer une matière de la base de donnée @done(24-12-05 09:54)
+    ✔ créer une méthode pour récupérer les notes d'un étudiant de la base de donnée @done(24-12-05 09:54)
+        ✔ récupérer également la matiere qui a cette note @done(24-12-05 09:54)
+    ✔ créer une méthode pour récupérer un étudiant dans la base de donnée, avec ses écolages et ses notes @done(24-12-05 09:54)
+    ✔ créer une méthode pour avoir un étudiant avec ses notes et ses écolages d'un semestre et d'une année donnée @done(24-12-05 11:01)
+    Qu'est ce qui est mieux ?
+        Afficher les deux semestres en une seule page ou alors
+            ☐ créer une méthode pour voir si un semestre est valide
+                -commment savoir qu'un semestre est valide ?
+                    Si la somme des écolages payée par l'étudiant durant ce semestre est égale à la moitié du prix de l'année correspondant de l'écolage
+        afficher un seul semestre en une seule page
+    ☐ créer une méthode pour voir si un étudiant qui consulte ses notes d'un semestre spécifique a payé l'entièreté de l'ecolage de la note
+        ☐ Comment savoir qu'un semestre est payé ?
+            si la somme des nombres des mois de son mode de paiement est égale à 6
+            
+            ☐ créer une méthode pour voir si la somme des montant des écolages d'un semestre est égale à la somme requise pour un semestre selon le prix de l'année correspondant
+            
+
+        
+Affichage
+    ☐ créer une méthode pour créer un formulaire pour effectuer un payment avec pour élément :
+        ☐ idEtudiant
+        ☐ une liste déroulante pour les modes de payement possibles
+        ☐ un input pour la quantité d'argent à payer
+        ☐ un bouton input pour lancer la transaction
+    ☐ créer une méthode pour créer un formulaire de consultation de note
+    ☐ créer une méthode pour un formulaire de paiement :
+        ☐ l'année scolaire à laquelle le payement sera fait
+        ☐ le montant à entrer
+        ☐ le mode de paiement
+            ☐ le mode de paiement détermine la somme minimum à payer pour valider la transaction
+        ☐ le reste à payer pour toute l'année
+
+
+tache actuelle
+    ☐ récupérer dans une List<Object> les écolages correspondant à un étudiant
+    ☐ récupérer dans une Annee l'année correspondante à l'id année dans la table année
+    ☐ setter les valeurs correpondantes dans la classe ecolage

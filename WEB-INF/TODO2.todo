@@ -1,0 +1,21 @@
+Partie :
+    *Objectif
+        -affichage
+            ☐ créer un formulaire d'insertion d'étudiant avec pour input : le nom de l'étudiant, son mode paiement
+            ☐ créer un formulaire de paiement avec pour input ; l'idEtudiant, le montant à entrer
+            ☐ créer un formulaire de choix de consultation de notes avec pour input : idEtudiant, l'année
+            ☐ créer un formulaire d'insertion de note avec pour input les notes de chaque matiere
+        -Traitement
+            ☐ une année est divisée en deux semestres
+            ☐ le premier semestre d'une année spécifique est consdéré comme entièrement payé si la somme totale des montants de l'écolage de cette année spécifique est égale ou supérieure à la moitié de la somme total à payer durant l'année scolaire
+            ☐ de même pour une année, une année est considérée comme entièrement payé si la somme total de l'écolage de cette année est égale ou dépasse la somme à payer pour l'écolage
+            ☐ Un étudiant n'a ni le droit de consulter ni le droit d'insérer ses notes d'un semestre spécifique d'une année spécifique s'il n'a pas validé le payement de ce semestre de cette année spécifique
+            ☐ Si la somme insérée par l'étudiant pour payer son écolage dépasse la somme requis par son mode de paiement, on rajoute directement l'excès dans un nouvel écolage
+    *Base de donnée
+        ☐ créer une méthode pour connaître la somme minimum requis pour pouvoir valider le paiement d'un écolage selon le mode de paiement de l'étudiant
+        ☐ créer une méthode pour voir si un étudiant peut voir sa note d'un semestre spécifique d'une année spécifique
+            ☐ créer d'autres méthodes au préalables pour faciliter cette méthode
+    *Traitement in Project Java
+    *Traitement affichage
+    *affichage
+    
